@@ -13,6 +13,8 @@ public class FizzBuzz {
                 System.out.println("Fizz");
             } else if ((counter % 3) == 0) {
                 System.out.println("Buzz");
+            } else {
+                System.out.println("Sorry that number isn't Fizz, Buzz or FizzBuzz");
             }
         }
     }
